@@ -1,0 +1,66 @@
+.consult-section {
+    background-image: url(../Images/green-bg.png);
+    background-position: center;
+    background-size: cover;
+    /* height: 85vh; */
+    margin-top: 150px;
+}
+.consult-section .content-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.consult-section .content-wrap p{
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    margin-top: 137px;
+    max-width: 65%;
+}
+.consult-section .img-wrap{
+    margin-top:-40px;
+}
+.consult-section .img-wrap img{
+    max-width: 88% !important;
+}
+.consult-section .content-wrap a{
+    text-decoration: none;
+    color: black;
+}
+.consult-section .content-wrap a{
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    background: #0B5B30;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    margin-left: 20px;
+    z-index: 1;
+}
+.consult-section .content-wrap a::before{
+    position: absolute;
+    content: '';
+    width: 56px;
+    height: 56px;
+    border: 4px solid #B5D659;
+    z-index:-1;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+    transition: all ease 1s;
+}
+.consult-section .content-wrap a:hover::before{
+    width: 115%;
+}
+.consult-section .content-wrap .action-btn{
+    margin-top: 10px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}

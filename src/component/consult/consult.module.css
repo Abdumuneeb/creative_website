@@ -1,34 +1,33 @@
-.consult-section {
-    background-image: url(../Images/green-bg.png);
+.consultSection {
+    /* background-image: url(../Images/green-bg.png); */
     background-position: center;
     background-size: cover;
-    /* height: 85vh; */
     margin-top: 150px;
 }
-.consult-section .content-wrap{
+.consultSection .contentWrap{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
 }
-.consult-section .content-wrap p{
+.consultSection .contentWrap p{
     font-size: 38px;
     font-weight: bold;
     color: white;
     margin-top: 137px;
     max-width: 65%;
 }
-.consult-section .img-wrap{
+.consultSection .imgWrap{
     margin-top:-40px;
 }
-.consult-section .img-wrap img{
+.consultSection .imgWrap img{
     max-width: 88% !important;
 }
-.consult-section .content-wrap a{
+.consultSection .contentWrap a{
     text-decoration: none;
     color: black;
 }
-.consult-section .content-wrap a{
+.consultSection .contentWrap a{
     font-size: 22px;
     line-height: 1.4;
     letter-spacing: 1px;
@@ -41,7 +40,7 @@
     margin-left: 20px;
     z-index: 1;
 }
-.consult-section .content-wrap a::before{
+.consultSection .contentWrap a::before{
     position: absolute;
     content: '';
     width: 56px;
@@ -53,14 +52,19 @@
     transform: translateY(-50%);
     transition: all ease 1s;
 }
-.consult-section .content-wrap a:hover::before{
+.consultSection .contentWrap a:hover::before{
     width: 115%;
 }
-.consult-section .content-wrap .action-btn{
+.consultSection .contentWrap .actionBtn{
     margin-top: 10px;
 }
 .wrapper{
     display: flex;
     justify-content: space-between;
+    background-image: url(../../Images/Shadow.png);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
     
 }
+

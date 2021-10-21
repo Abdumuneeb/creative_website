@@ -4,3 +4,36 @@
     justify-content: center;
     align-items: center;
 }
+.contentWrapper p{
+    color: #7f7770;
+    max-width: 26%;
+    text-align: center;
+}
+.contentWrapper h1{
+    color: #e2a355;
+    margin-top: 100px;
+}
+.cardWrap {
+    padding: 10px;
+    width: 320px;
+    background-color: #7f7770;
+    margin-top: -8px;
+    color: white;
+
+}
+.flexWrapper{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+.flexWrapper{
+    background-image: url(../../Images/Shadow.png);
+    height: 66vh;
+    background-repeat: no-repeat;
+
+}
+.btnWrap{
+    display: flex;
+    justify-content: center;
+}

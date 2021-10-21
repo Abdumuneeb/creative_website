@@ -96,3 +96,14 @@ body{
   width: 100%;
   margin: 0 auto;
 }
+
+.action-btn{
+  padding: 20px 50px;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  background-color: #7f7770;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
